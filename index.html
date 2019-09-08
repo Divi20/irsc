@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            dummy
+        </title>
+        <!--meta tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content-="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+        
+        <link rel="stylesheet" href="css/ircs.css">
+    </head>
+    <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+            <img src="img/logo.png" height="50" width="50">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">Home</a></li>
+            </ul>
+        <div class="dropdown">
+            <button type="button" class="btn btn-outline navButtons dropdown-toggle text-center text-white" data-toggle="dropdown">
+                 Register
+            </button>
+                            
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">As a Hotel</a>
+                     <a class="dropdown-item" href="#">As a Customer</a>
+            </div>
+
+            </div>
+             <button id="test" href="javascript:;" type="button" class="btn  navButtons text-center text-white">
+                        Login
+             </button>
+
+             <!--Login content-->
+
+             <div style="display: none;" id="hidden-content">
+                        <div class="row">
+                            <div class="card">
+                              <div class="card-header">
+                                <ul class="nav nav-tabs card-header-tabs" id="bologna-list" role="tablist">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="#description" role="tab" aria-controls="description" aria-selected="true">Hotel</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link"  href="#history" role="tab" aria-controls="history" aria-selected="false">Customer</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="card-body">
+                                <h4 class="card-title">Login </h4>
+                                
+                                 <div class="tab-content">
+                                  <div class="tab-pane active" id="hotel" role="tabpanel">
+                                    <div class="row">
+                                    <input type="email" placeholder="Email"></div>
+                                    <div class="row">
+                                    <input type="password" placeholder="password"></div>
+                                    <button href="javascript:;" type="button" class="btn  navButtons" style="color:#333; border-color:#333; margin-left: 0px;">
+                                        Login
+                             </button>
+                                  </div>
+                                  <div class="row">
+                                    Not registered yet?Register Now(<a href="#" style="color: green">Hotel</a> / <a href="#" style="color: green">Customer</a>)
+                                  </div>
+                                   
+                                  <div class="tab-pane" id="customer" role="tabpanel" aria-labelledby="history-tab">  
+                                    
+                                    <!--customer-->
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            
+                          </div>
+                        </div>
+                      
+        </div>
+             <!--Login content-->
+         </div>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+     <h1 class="heading">Dummy Text</h1>
+      </div>
+      <div class="row">
+        <!--Filter-->
+           <div class="col-sm-9">    
+                <div class="row">
+                  Filter
+                <div class="col-sm-3"> 
+                  <!--Filter1-->
+               <div class="btn-group">
+            
+                  
+                  <button type="button" class="Filter text-left btn btn-primary">Filter1</button>
+                  <button type="button" class="DownArrow btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  </button>
+                  
+                   <div class="dropdown-menu">
+                  ...
+                   </div>
+              </div>
+                </div>
+                <!--Filter2-->
+                <div class="col-sm-3"> 
+              <div class="btn-group">
+            
+                  <button type="button" class="Filter text-left btn btn-primary">Filter2</button>
+                  <button type="button" class="DownArrow btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  </button>
+                  
+                  <div class="dropdown-menu">
+                      ...
+                  </div>
+              </div>
+           </div>
+           </div>
+           </div>
+           <!--Search-->
+           
+            <div class="col-sm-3">
+              
+              <div class="input-group has-search">
+                <span class="fa fa-search form-control-feedback"></span>
+                    <input type="text" class="form-control">
+                       <div class="input-group-append">
+                          <button class="btn btn-secondary" type="button" style="border-radius: 0px;">
+                             Search
+                          </button>
+                        </div>
+                      </div>  
+                    </div>
+                    
+              </div>
+       </div>
+              
+    <div class="container">  
+       <div id="HotelSection" class="row">
+        <!--1-->
+        
+
+       <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+          <div class="card" style="border-radius: 0px">
+            <div class="card-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="row">
+                     <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                    </div>
+                    <div class="row">
+                        <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                          <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                          <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                          <h6><b>door sit amet,c</b></h6>
+                        </div>
+                    </div>
+                     
+                    </div>
+                      
+                  <div class="col-sm-4">
+                    <img src="img/buffet.png" style="width:80px;height: 80px;">
+                  </div>
+                </div>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-sm-3">
+                    <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                            
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card-footer" style="border-radius: 0px">
+              <div class="container">
+                <div class="row text-white" style="font-size: 10px">
+                  <div style="margin-right:160px">Ipsnum</div>
+                    <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                     <!--View details content-->
+
+             <div style="display: none;" id="hidden-content2">
+                <div class="row">
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <br>
+                        <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                           <hr>
+
+                           <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                        
+                           <div class="text-center">
+                           <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                              Close
+                           </button>
+                           
+                      </div>
+
+
+                            
+                           
+                          
+                        
+                      
+                    
+                  </div>
+                </div>
+              
+      
+     <!--View details content-->
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+        <!--2-->
+        <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+         <!--3-->
+         <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+
+       <!--4-->
+       <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+          <div class="card" style="border-radius: 0px">
+            <div class="card-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="row">
+                     <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                    </div>
+                    <div class="row">
+                        <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                          <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                          <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                          <h6><b>door sit amet,c</b></h6>
+                        </div>
+                    </div>
+                     
+                    </div>
+                      
+                  <div class="col-sm-4">
+                    <img src="img/buffet.png" style="width:80px;height: 80px;">
+                  </div>
+                </div>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-sm-3">
+                    <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                            
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card-footer" style="border-radius: 0px">
+              <div class="container">
+                <div class="row text-white" style="font-size: 10px">
+                  <div style="margin-right:160px">Ipsnum</div>
+                    <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                     <!--View details content-->
+
+             <div style="display: none;" id="hidden-content2">
+                <div class="row">
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <br>
+                        <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                           <hr>
+
+                           <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                        
+                           <div class="text-center">
+                           <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                              Close
+                           </button>
+                           
+                      </div>
+
+
+                            
+                           
+                          
+                        
+                      
+                    
+                  </div>
+                </div>
+              
+      
+     <!--View details content-->
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+
+     <!--5-->
+     <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+        <div class="card" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                   <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                  </div>
+                  <div class="row">
+                      <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                        <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                        <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                        <h6><b>door sit amet,c</b></h6>
+                      </div>
+                  </div>
+                   
+                  </div>
+                    
+                <div class="col-sm-4">
+                  <img src="img/buffet.png" style="width:80px;height: 80px;">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                  <div class="row">
+                    <p class="olang">s unday onm</p>  
+                    <p class="elang">Immediately</p>     
+                    
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-footer" style="border-radius: 0px">
+            <div class="container">
+              <div class="row text-white" style="font-size: 10px">
+                <div style="margin-right:160px">Ipsnum</div>
+                  <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                   <!--View details content-->
+
+           <div style="display: none;" id="hidden-content2">
+              <div class="row">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Lorem Ipsum</h4>
+                      <br>
+                      <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                         <hr>
+
+                         <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                      
+                         <div class="text-center">
+                         <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                            Close
+                         </button>
+                         
+                    </div>
+
+
+                          
+                         
+                        
+                      
+                    
+                  
+                </div>
+              </div>
+            
+    
+   <!--View details content-->
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+   <!--6-->
+   <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+      <div class="card" style="border-radius: 0px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="row">
+                 <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                </div>
+                <div class="row">
+                    <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                      <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                      <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                      <h6><b>door sit amet,c</b></h6>
+                    </div>
+                </div>
+                 
+                </div>
+                  
+              <div class="col-sm-4">
+                <img src="img/buffet.png" style="width:80px;height: 80px;">
+              </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+              <div class="col-sm-3">
+                <div class="row">
+                  <p class="olang">s unday onm</p>  
+                  <p class="elang">Immediately</p>     
+                  
+                </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                        
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card-footer" style="border-radius: 0px">
+          <div class="container">
+            <div class="row text-white" style="font-size: 10px">
+              <div style="margin-right:160px">Ipsnum</div>
+                <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                 <!--View details content-->
+
+         <div style="display: none;" id="hidden-content2">
+            <div class="row">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem Ipsum</h4>
+                    <br>
+                    <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                       <hr>
+
+                       <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                    
+                       <div class="text-center">
+                       <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                          Close
+                       </button>
+                       
+                  </div>
+
+
+                        
+                       
+                      
+                    
+                  
+                
+              </div>
+            </div>
+          
+  
+ <!--View details content-->
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+
+   <!--7-->
+   <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+      <div class="card" style="border-radius: 0px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="row">
+                 <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                </div>
+                <div class="row">
+                    <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                      <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                      <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                      <h6><b>door sit amet,c</b></h6>
+                    </div>
+                </div>
+                 
+                </div>
+                  
+              <div class="col-sm-4">
+                <img src="img/buffet.png" style="width:80px;height: 80px;">
+              </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+              <div class="col-sm-3">
+                <div class="row">
+                  <p class="olang">s unday onm</p>  
+                  <p class="elang">Immediately</p>     
+                  
+                </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                        
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card-footer" style="border-radius: 0px">
+          <div class="container">
+            <div class="row text-white" style="font-size: 10px">
+              <div style="margin-right:160px">Ipsnum</div>
+                <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                 <!--View details content-->
+
+         <div style="display: none;" id="hidden-content2">
+            <div class="row">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem Ipsum</h4>
+                    <br>
+                    <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                       <hr>
+
+                       <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                    
+                       <div class="text-center">
+                       <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                          Close
+                       </button>
+                       
+                  </div>
+
+
+                        
+                       
+                      
+                    
+                  
+                
+              </div>
+            </div>
+          
+  
+ <!--View details content-->
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+
+     <!--8-->
+     <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+        <div class="card" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                   <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                  </div>
+                  <div class="row">
+                      <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                        <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                        <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                        <h6><b>door sit amet,c</b></h6>
+                      </div>
+                  </div>
+                   
+                  </div>
+                    
+                <div class="col-sm-4">
+                  <img src="img/buffet.png" style="width:80px;height: 80px;">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                  <div class="row">
+                    <p class="olang">s unday onm</p>  
+                    <p class="elang">Immediately</p>     
+                    
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-footer" style="border-radius: 0px">
+            <div class="container">
+              <div class="row text-white" style="font-size: 10px">
+                <div style="margin-right:160px">Ipsnum</div>
+                  <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                   <!--View details content-->
+
+           <div style="display: none;" id="hidden-content2">
+              <div class="row">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Lorem Ipsum</h4>
+                      <br>
+                      <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                         <hr>
+
+                         <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                      
+                         <div class="text-center">
+                         <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                            Close
+                         </button>
+                         
+                    </div>
+
+
+                          
+                         
+                        
+                      
+                    
+                  
+                </div>
+              </div>
+            
+    
+   <!--View details content-->
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+
+         <!--9-->
+         <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+
+
+             <!--10-->
+        <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+
+             <!--11-->
+        <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+
+             <!--12-->
+        <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+             <!--13-->
+        <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+            <div class="card" style="border-radius: 0px">
+              <div class="card-body">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <div class="row">
+                       <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                      </div>
+                      <div class="row">
+                          <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                            <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                            <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                            <h6><b>door sit amet,c</b></h6>
+                          </div>
+                      </div>
+                       
+                      </div>
+                        
+                    <div class="col-sm-4">
+                      <img src="img/buffet.png" style="width:80px;height: 80px;">
+                    </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px">
+                    <div class="col-sm-3">
+                      <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                              
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="row">
+                                <p class="olang">s unday onm</p>  
+                                <p class="elang">Immediately</p>     
+                                
+                              </div>
+                          </div>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="card-footer" style="border-radius: 0px">
+                <div class="container">
+                  <div class="row text-white" style="font-size: 10px">
+                    <div style="margin-right:160px">Ipsnum</div>
+                      <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+  
+                       <!--View details content-->
+  
+               <div style="display: none;" id="hidden-content2">
+                  <div class="row">
+                        </div>
+                        <div class="card-body">
+                          <h4 class="card-title">Lorem Ipsum</h4>
+                          <br>
+                          <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                             <hr>
+  
+                             <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                          <br>
+                           <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                             adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                             magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                             dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                          
+                             <div class="text-center">
+                             <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                                Close
+                             </button>
+                             
+                        </div>
+  
+  
+                              
+                             
+                            
+                          
+                        
+                      
+                    </div>
+                  </div>
+                
+        
+       <!--View details content-->
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+
+       <!--14-->
+       <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+          <div class="card" style="border-radius: 0px">
+            <div class="card-body">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <div class="row">
+                     <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                    </div>
+                    <div class="row">
+                        <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                          <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                          <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                          <h6><b>door sit amet,c</b></h6>
+                        </div>
+                    </div>
+                     
+                    </div>
+                      
+                  <div class="col-sm-4">
+                    <img src="img/buffet.png" style="width:80px;height: 80px;">
+                  </div>
+                </div>
+                <div class="row" style="margin-top: 20px">
+                  <div class="col-sm-3">
+                    <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                            
+                      </div>
+                      <div class="col-sm-3">
+                          <div class="row">
+                              <p class="olang">s unday onm</p>  
+                              <p class="elang">Immediately</p>     
+                              
+                            </div>
+                        </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="card-footer" style="border-radius: 0px">
+              <div class="container">
+                <div class="row text-white" style="font-size: 10px">
+                  <div style="margin-right:160px">Ipsnum</div>
+                    <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                     <!--View details content-->
+
+             <div style="display: none;" id="hidden-content2">
+                <div class="row">
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Lorem Ipsum</h4>
+                        <br>
+                        <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                           <hr>
+
+                           <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                        <br>
+                         <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                           adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                           magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                           dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                        
+                           <div class="text-center">
+                           <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                              Close
+                           </button>
+                           
+                      </div>
+
+
+                            
+                           
+                          
+                        
+                      
+                    
+                  </div>
+                </div>
+              
+      
+     <!--View details content-->
+                  </div>
+                </div>
+              </div>
+          </div>
+          </div>
+
+
+     <!--15-->
+     <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+        <div class="card" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                   <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                  </div>
+                  <div class="row">
+                      <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                        <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                        <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                        <h6><b>door sit amet,c</b></h6>
+                      </div>
+                  </div>
+                   
+                  </div>
+                    
+                <div class="col-sm-4">
+                  <img src="img/buffet.png" style="width:80px;height: 80px;">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                  <div class="row">
+                    <p class="olang">s unday onm</p>  
+                    <p class="elang">Immediately</p>     
+                    
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-footer" style="border-radius: 0px">
+            <div class="container">
+              <div class="row text-white" style="font-size: 10px">
+                <div style="margin-right:160px">Ipsnum</div>
+                  <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                   <!--View details content-->
+
+           <div style="display: none;" id="hidden-content2">
+              <div class="row">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Lorem Ipsum</h4>
+                      <br>
+                      <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                         <hr>
+
+                         <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                      
+                         <div class="text-center">
+                         <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                            Close
+                         </button>
+                         
+                    </div>
+
+
+                          
+                         
+                        
+                      
+                    
+                  
+                </div>
+              </div>
+            
+    
+   <!--View details content-->
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+     <!--16-->
+     <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+        <div class="card" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                   <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                  </div>
+                  <div class="row">
+                      <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                        <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                        <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                        <h6><b>door sit amet,c</b></h6>
+                      </div>
+                  </div>
+                   
+                  </div>
+                    
+                <div class="col-sm-4">
+                  <img src="img/buffet.png" style="width:80px;height: 80px;">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                  <div class="row">
+                    <p class="olang">s unday onm</p>  
+                    <p class="elang">Immediately</p>     
+                    
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-footer" style="border-radius: 0px">
+            <div class="container">
+              <div class="row text-white" style="font-size: 10px">
+                <div style="margin-right:160px">Ipsnum</div>
+                  <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                   <!--View details content-->
+
+           <div style="display: none;" id="hidden-content2">
+              <div class="row">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Lorem Ipsum</h4>
+                      <br>
+                      <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                         <hr>
+
+                         <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                      
+                         <div class="text-center">
+                         <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                            Close
+                         </button>
+                         
+                    </div>
+
+
+                          
+                         
+                        
+                      
+                    
+                  
+                </div>
+              </div>
+            
+    
+   <!--View details content-->
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+     <!--17-->
+     <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+        <div class="card" style="border-radius: 0px">
+          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8">
+                  <div class="row">
+                   <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                  </div>
+                  <div class="row">
+                      <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                        <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                        <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                        <h6><b>door sit amet,c</b></h6>
+                      </div>
+                  </div>
+                   
+                  </div>
+                    
+                <div class="col-sm-4">
+                  <img src="img/buffet.png" style="width:80px;height: 80px;">
+                </div>
+              </div>
+              <div class="row" style="margin-top: 20px">
+                <div class="col-sm-3">
+                  <div class="row">
+                    <p class="olang">s unday onm</p>  
+                    <p class="elang">Immediately</p>     
+                    
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="row">
+                            <p class="olang">s unday onm</p>  
+                            <p class="elang">Immediately</p>     
+                            
+                          </div>
+                      </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="card-footer" style="border-radius: 0px">
+            <div class="container">
+              <div class="row text-white" style="font-size: 10px">
+                <div style="margin-right:160px">Ipsnum</div>
+                  <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                   <!--View details content-->
+
+           <div style="display: none;" id="hidden-content2">
+              <div class="row">
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Lorem Ipsum</h4>
+                      <br>
+                      <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                         <hr>
+
+                         <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                      <br>
+                       <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                         adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                         magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                         dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                      
+                         <div class="text-center">
+                         <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                            Close
+                         </button>
+                         
+                    </div>
+
+
+                          
+                         
+                        
+                      
+                    
+                  
+                </div>
+              </div>
+            
+    
+   <!--View details content-->
+                </div>
+              </div>
+            </div>
+        </div>
+        </div>
+
+
+   <!--18-->
+   <div id ="IndHotelSection" class="col-sm-4" style="margin-top: 25px;">
+        
+        
+      <div class="card" style="border-radius: 0px">
+        <div class="card-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+                <div class="row">
+                 <h4 style="margin-bottom: 10px "><b>Lorem Ipsum</b></h4>
+                </div>
+                <div class="row">
+                    <div class="card-text" style="font-size: 10px; margin-top:0px;">
+                      <p style="margin-bottom: 2px ">Delhi,Mumbai</p>
+                      <p style="margin-bottom: 2px ">Venues: DD/MM/YY</p>
+                      <h6><b>door sit amet,c</b></h6>
+                    </div>
+                </div>
+                 
+                </div>
+                  
+              <div class="col-sm-4">
+                <img src="img/buffet.png" style="width:80px;height: 80px;">
+              </div>
+            </div>
+            <div class="row" style="margin-top: 20px">
+              <div class="col-sm-3">
+                <div class="row">
+                  <p class="olang">s unday onm</p>  
+                  <p class="elang">Immediately</p>     
+                  
+                </div>
+              </div>
+              <div class="col-sm-3">
+                  <div class="row">
+                      <p class="olang">s unday onm</p>  
+                      <p class="elang">Immediately</p>     
+                      
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="row">
+                        <p class="olang">s unday onm</p>  
+                        <p class="elang">Immediately</p>     
+                        
+                      </div>
+                        
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="row">
+                          <p class="olang">s unday onm</p>  
+                          <p class="elang">Immediately</p>     
+                          
+                        </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="card-footer" style="border-radius: 0px">
+          <div class="container">
+            <div class="row text-white" style="font-size: 10px">
+              <div style="margin-right:160px">Ipsnum</div>
+                <a id="vd1" href="javascript:;" class="text-white"><U>View Details ></U> </a>
+
+                 <!--View details content-->
+
+         <div style="display: none;" id="hidden-content2">
+            <div class="row">
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem Ipsum</h4>
+                    <br>
+                    <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                       <hr>
+
+                       <h6 class="card-subtitle mb-2">Lorem Ipsum</h6>
+                    <br>
+                     <p class="card-text">Lorem ipsum dolor sit amet consectetur <br>
+                       adipisicing elit. Pariatur quaerat maiores harum suscipit <br>
+                       magnam magni cumque odio nemo saepe veritatis corporis fugiat, <br>
+                       dolore deserunt ex quia voluptatem nesciunt, totam atque?</p>
+                    
+                       <div class="text-center">
+                       <button id="close" onclick="$.fancybox.close()" href="javascript:;" type="button" class="btn  navButtons text-center" style="color:#333; border-color:#333">
+                          Close
+                       </button>
+                       
+                  </div>
+
+
+                        
+                       
+                      
+                    
+                  
+                
+              </div>
+            </div>
+          
+  
+ <!--View details content-->
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+  
+
+
+        
+          
+
+  
+
+            
+     </div>
+     <div id="ShowMoreSection" class="row" >     
+            <div class="col-sm-5"></div>
+            <div class="col-sm-7">
+            <Button class="btn btn-secondary dropdown-toggle" style="margin-top:20px;border-radius: 20px; width:200px;background-color: rgb(92, 107, 114)">Show More</Button>
+            </div>
+     </div>
+    
+    
+  </div>
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        <script src="javascript/index.js"></script>
+    </body>
+</html>
